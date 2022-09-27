@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+  
+    background-color: #f9f9f9;
+    color: #333333;
+  
+    min-width: 500px;
+    margin: 0 auto;
+  }
+
+div {
+    display: block;
+}
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 0;
+  }
+  
+  main > h2 {
+    text-align: center;
+    font-size: 25px;
+  }
+
+.sect-block {
+    display: inline-block;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.inblock-left {
+    display: inline-block;
+    width: 200px;
+    float: left;
+}
+
+.inblock-right {
+    display: inline-block;
+    width: 600px;
+    
+}
+
+.about-me {
+    margin: 20px;
+    border: 2px solid #959799;
+    padding: 20px;
+    width: 80%;
+    color: #333333;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #CCA6A6;
+}
+
+.about-me h2 {
+    color: #959799;
+}
